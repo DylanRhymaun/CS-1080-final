@@ -1,0 +1,39 @@
+main {
+    display: grid;
+    grid-template-areas: "box1" "box2";
+    grid-template-columns: 1fr; 
+    grid-gap: 1%;
+}
+
+
+main section:first-child {
+    grid-area: box1;
+}
+
+main section:nth-child(2) {
+    grid-area: box2;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    }
+
+.art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.art img {
+    max-width: 90%; 
+    width: auto;
+    height: auto; 
+    margin: 1px; 
+    object-fit: contain;
+    transition: max-width 0.3s;
+}

@@ -1,0 +1,51 @@
+/*THIS FILE IS NOT USED IN MY PROJECT*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: black;
+}
+
+/*    HEADER    */
+.logo {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-top: 1.5%;
+    left: 0;
+    width: 100%;
+    transition: font-size 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.logo h1 {
+    display: inline-block;
+    margin: 0;
+}
+.logo:hover{
+    font-size: 45px;
+}
+
+/*    NAV    */
+nav {
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-size: 18pt;
+}
+nav a:link:not(.activePage) {
+    text-decoration: none;
+}
+nav a {
+    color:white;
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative; 
+    transition: transform 0.2s ease-in-out;
+}
+a:hover {
+    cursor: pointer;
+    color: rgb(141, 206, 250);
+    transform: translateY(-5px);
+}
